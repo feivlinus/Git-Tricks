@@ -46,28 +46,23 @@ Follow the instrcutions after executing this command. Like at this example above
 
 All commands to create a new Repo and push your code to it.
 
+### 1. Create your local repo aka project
+
 ```bash
-
 mkdir projectname
-
 cd projectname
-
 git init
-
 touch README.md
-
 git add .
-
 git commit -m 'Initial commit'
-
 ```
+
+### 2. Create your remote repo
 
 ```bash
 gh repo create
 ```
 
-```bash
-git push
-```
+## To be continued
 
-## A cute cat
+![git meme](assets/bikegithardway.png)
